@@ -2,12 +2,7 @@
 .container-fluid{
   padding: 3% 12% 3%;
 }
-@media (max-width:500px) {
-  .container-fluid{
-    padding: 2% 1% 2%;
-  }
 
-}
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -449,4 +444,12 @@ footer {
 
 .top i {
   color: #74808a
+}
+@media (max-width:500px) {
+  .container-fluid{
+    padding: 2% 1% 2%;
+  }
+p{
+  font-size: 1rem;
+}
 }
