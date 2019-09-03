@@ -151,7 +151,23 @@ hr {
 /* .title-image{
   width:50%
 } */
+.btn-xlarge:active{
+  box-shadow: none;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+}
 .btn-xlarge {
+
     padding: 10px 20px;
     font-size: 22px; //change this to your desired size
     line-height: normal;
