@@ -1,5 +1,6 @@
 html{
   font-size: 100%;
+  overflow: hidden;
 }
 .container-fluid{
   padding: 3% 12% 3%;
