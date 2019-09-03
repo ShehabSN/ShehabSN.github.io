@@ -1,6 +1,12 @@
 
 .container-fluid{
-  padding: 3% 6% 3%;
+  padding: 3% 12% 3%;
+}
+@media (max-width:500px) {
+  .container-fluid{
+    padding: 2% 1% 2%;
+  }
+
 }
 p{
   font-family: 'Roboto', sans-serif;
