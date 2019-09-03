@@ -14,7 +14,7 @@ section{
   margin-bottom: 80px;
 }
 .card{
-  width: 36rem; margin: 100px auto;
+  width: 100%; margin: 100px auto;height: 100%;
 }
 
 h2 {
@@ -339,6 +339,7 @@ margin: 0px 10px 0px;
 }
 
 #dropdownMenuButton{
+  z-index: 500;
   color: white;
   background-color:#944450;
     /* background-color: #F65356; */
