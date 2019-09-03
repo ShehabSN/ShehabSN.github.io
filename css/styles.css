@@ -45,6 +45,14 @@ h2:after {
     border-top: 3px solid;
 
 }
+@media (max-width: 600px) {
+  h2:after{
+    margin-right: 40%;
+  }
+  h2:before{
+    margin-left: 40%;
+  }
+}
 #projects h2{
   margin-bottom: 50px;
 }
@@ -84,6 +92,7 @@ h2:after {
   /* background-color: #F2F2F5; */
   /* background-color: #EEEEEE */
 }
+
 #skills ul {
 
   text-align: center;
@@ -338,6 +347,22 @@ margin: 0px 10px 0px;
   }
 }
 
+
+/* @media (max-width: 600px) {
+  body{
+    background-color: yellow;
+  }
+  h1{
+    font-size: 5px;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #lead-content{
+    margin:0 auto;
+  }
+} */
 #dropdownMenuButton{
   z-index: 500;
   color: white;
@@ -418,25 +443,4 @@ footer {
 
 .top i {
   color: #74808a
-}
-
-.social {
-  text-align: right
-}
-
-.social ul {
-  margin: 5px 0 0 0;
-  padding: 0
-}
-
-.social li {
-  display: inline-block;
-  font-size: 1.25em;
-  list-style: none
-}
-
-.social a {
-  display: block;
-  color: #74808a;
-  padding: 10px
 }
