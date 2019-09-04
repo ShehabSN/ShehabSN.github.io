@@ -55,7 +55,7 @@ section{
 }
 
 h2 {
-  margin-bottom: 30px;
+
     display: grid;
     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
     align-items: center;
@@ -455,6 +455,10 @@ footer {
 } */
 
 @media only screen and (max-width: 550px) {
+  section{
+    margin-bottom: 40px;
+    margin-top:40px;
+  }
   .dropdown-menu{
     min-width: auto;
     font-size: 0.8rem;
@@ -496,12 +500,12 @@ footer {
       min-height: auto;
       max-height: auto;
       padding-top: 200px;
-      padding-bottom: 200px;
+      padding-bottom: 120px;
 
     background-position: 10% 10%;
   }
   #lead-content h1 {
-    font-size: 1.75em
+    font-size: 1.5em
   }
 
   #lead-content h2 {
