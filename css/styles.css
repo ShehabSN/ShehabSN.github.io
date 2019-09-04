@@ -517,7 +517,7 @@ footer {
     padding: 5px 10px
   }
   #lead-content{
-    margin-top: -35%;
+    margin-top: -50%;
   }
 }
 @media only screen and (max-width: 992px) and(min-width: 550px) {
@@ -584,7 +584,7 @@ footer {
 
   #lead-content h1 {
     font-size: 1.5rem
-    margin-bottom:15px;
+    margin-bottom:10px;
   }
 
   #lead-content h2 {
