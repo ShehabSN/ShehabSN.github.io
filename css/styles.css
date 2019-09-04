@@ -12,13 +12,13 @@ position: relative;
 
   background-size: cover;
   padding: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* background-position: 20% 40%; */
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
-#lead-overlay {
+.lead-overlay {
   background-color:rgba(69.4, 61.2, 85.1, 0.45);
   position: absolute;
   height: 100%;
@@ -356,6 +356,7 @@ margin: 0px 10px 0px;
   }
 } */
 #dropdownMenuButton{
+  min-width: auto;
   z-index: 500;
   color: white;
   background-color:#944450;
@@ -381,14 +382,17 @@ left: 5%
 #lead-content h1 {
   color: #f5f5f5;
 
-  font-weight: 900;
-  font-size: 2.5em;
+  font-weight: 700;
+  font-size: 2.2rem;
   text-shadow: 2px 2px 4px #000000;
 
   /* text-transform: uppercase; */
   letter-spacing: 0.05em;
-  line-height: 0.9em;
-  margin-bottom: 15px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+.description{
+  display: none;
 }
 .btn-rounded-white {
 
@@ -398,6 +402,13 @@ left: 5%
   border: 3px solid #fff;
   border-radius: 30px;
   transition: .5s ease all
+}
+.dropdown-menu{
+  min-width: auto;
+  font-size: 0.8rem;
+}
+.dropdown-item{
+  padding:.15rem 0.75rem;
 }
 
 .btn-rounded-white:hover {
@@ -474,13 +485,13 @@ footer {
 
 
 
-      height: auto;
+      /* height: auto;
       min-height: auto;
-      max-height: auto;
-      padding-top: 100px;
-      padding-bottom:  175px;
+      max-height: auto; */
+      padding-top: 200px;
+      padding-bottom: 50px;
 
-    background-position: 75% 75%;
+    background-position: 10% 10%;
   }
   #lead-content h1 {
     font-size: 1.5em
@@ -491,11 +502,11 @@ footer {
   }
 
   #lead-content a {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 5px 10px
   }
   #lead-content{
-    margin-top: -60px;
+    margin-top: -30%;
   }
 }
 @media only screen and (max-width: 992px) and(min-width: 550px) {
@@ -561,7 +572,8 @@ footer {
   }
 
   #lead-content h1 {
-    font-size: 1.75em
+    font-size: 1.5rem
+    margin-bottom:15px;
   }
 
   #lead-content h2 {
@@ -569,7 +581,7 @@ footer {
   }
 
   #lead-content a {
-    padding: 10px 20px
+    padding: 7px 12px
   }
 
   #lead-down {
