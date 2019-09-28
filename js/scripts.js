@@ -7,7 +7,7 @@
         $(".intro").fadeOut(2000,function(){
           $(".description").fadeIn(2000);
         });
-      },3000);
+      },2000);
 
     });
 
