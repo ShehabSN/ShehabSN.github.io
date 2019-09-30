@@ -562,7 +562,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   color: #fff;
   background-color:#944450;
   font-family: Consolas, Menlo, Monaco, monospace;
@@ -599,10 +599,6 @@ footer {
     visibility: hidden;
   }
 }
-/* CSS end - For Live Project */
-
-
-/* Classes for Example Page Content */
 
 .imagen {
   display: inline-block;
