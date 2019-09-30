@@ -1,8 +1,13 @@
 
 
 (function($) {
+
+  window.addEventListener("load", function (){
+      var preloader = document.querySelector(".preloader");
+      preloader.className += " hidden";
+  });
   $(function () {
-    $(document).ready(function(){
+    $(window).on("load",function(){
       setTimeout(function(){
         $(".intro").fadeOut(2000,function(){
           $(".description").fadeIn(2000);
