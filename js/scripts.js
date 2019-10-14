@@ -11,7 +11,7 @@ new WOW().init();
   min = 1;
   max = 8;
   particles = 200;
-  colors = ["64, 32, 0", "250, 64, 0", "64, 0, 0", "200, 200, 200"];
+  colors = ["156, 68, 80", "161, 158, 168", "73, 52, 58", "72, 71, 68"];
 
   rand = function(a, b) {
     return Math.random() * (b - a) + a;
@@ -138,8 +138,11 @@ setTimeout(function(){
                   setTimeout(function(){
                     $(".intro").remove();
                     $(".description").show(function(){
-                      $(".btn-rounded-white").show();
-                      $(".btn-rounded-white").addClass('rubberBand');
+                      setTimeout(function(){
+                        $(".btn-rounded-white").show();
+                        $(".btn-rounded-white").addClass('rubberBand');
+                      },3000);
+
                     });
 
                   },1000);
@@ -167,20 +170,7 @@ setTimeout(function(){
     }, 500);
   });
 
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    var height = $("#lead").height();
-    if (scroll >= height) {
-      $('.nav').css({
-        "color": "black"
-      });
-    } else {
-      $('.nav').css({
-        "color": "white"
-      });
-    }
 
-  });
 
 
 
