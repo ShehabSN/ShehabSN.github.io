@@ -1,4 +1,12 @@
-
+.logo {
+  background: url('http://reactivespaces.com/static/img/rs_logo_white.png');
+  width: 295px;
+  height: 30px;
+  border-style:none;
+  position: absolute;
+  top:50%;
+  left:39%;
+}
 #lead{
 
   background-image: url("../images/front.jpg");
@@ -394,6 +402,7 @@ footer {
   }
 
   #about {
+    
     text-align: center
   }
 
@@ -401,6 +410,7 @@ footer {
     text-align: left
   }
   #projects .container-fluid{
+
     padding: 2% 1% 2%;
   }
 
