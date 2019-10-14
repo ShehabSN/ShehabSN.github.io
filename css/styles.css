@@ -49,8 +49,11 @@ p{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 2;
-  font-size: 1rem;
-  color: #50555c;
+  font-size: 1.2rem;
+  color: white;
+}
+#projects p {
+  color:#50555c;
 }
 section{
   margin-top: 80px;
@@ -94,6 +97,7 @@ h2:after {
 
 }
 @media (max-width: 600px) {
+
   h2:after{
     margin-right: 60%;
   }
@@ -219,7 +223,8 @@ hr {
 
 
 .about-me-row{
-  padding: 5% 0% 0%;
+  text-align: center;
+  padding: 5% 10% 0%;
 }
 
 h1{
@@ -493,7 +498,7 @@ footer {
   }
   h2{
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   header {
     position: fixed;
