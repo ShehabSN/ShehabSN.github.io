@@ -141,7 +141,7 @@ setTimeout(function(){
                       setTimeout(function(){
                         $(".btn-rounded-white").show();
                         $(".btn-rounded-white").addClass('rubberBand');
-                      },3000);
+                      },2000);
 
                     });
 
@@ -150,7 +150,7 @@ setTimeout(function(){
 
 
       }, 2500);
-},1000);
+});
 
 
   });
