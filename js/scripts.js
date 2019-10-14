@@ -132,9 +132,9 @@ setTimeout(function(){
 
   $(".intro").show();
       setTimeout(function() {
-        $(".intro").removeClass('rollIn');
+        $(".intro").removeClass('fadeInLeft');
 
-                  $(".intro").addClass('rollOut slow');
+                  $(".intro").addClass('fadeOutRight slow');
                   setTimeout(function(){
                     $(".intro").remove();
                     $(".description").show(function(){
