@@ -1,18 +1,27 @@
 new WOW().init();
 (function($) {
+
 $(".description").hide();
 $(".intro").hide();
+$(".btn-rounded-white").hide();
 
   $(window).on("load", function() {
 setTimeout(function(){
+
   $(".intro").show();
       setTimeout(function() {
         $(".intro").removeClass('rollIn');
-                  $(".intro").addClass('rollOut ');
 
-          $(".description").show(function(){
-            $(".btn-rounded-white").addClass('rubberBand');
-          });
+                  $(".intro").addClass('rollOut slow');
+                  setTimeout(function(){
+                    $(".intro").remove();
+                    $(".description").show(function(){
+                      $(".btn-rounded-white").show();
+                      $(".btn-rounded-white").addClass('rubberBand');
+                    });
+
+                  },1000);
+
 
 
       }, 2500);
