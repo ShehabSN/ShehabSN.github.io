@@ -1,3 +1,4 @@
+
 #lead{
 
   background-image: url("../images/front.jpg");
@@ -306,9 +307,7 @@ left: 5%
   line-height: 1.4em;
   margin-bottom: 20px;
 }
-.description{
-  display: none;
-}
+
 .btn-rounded-white {
 
   display: inline-block;

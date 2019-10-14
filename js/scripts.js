@@ -1,11 +1,23 @@
+new WOW().init();
 (function($) {
+$(".description").hide();
+$(".intro").hide();
 
   $(window).on("load", function() {
-    setTimeout(function() {
-      $(".intro").fadeOut(2000, function() {
-        $(".description").fadeIn(2000);
-      });
-    }, 1000);
+setTimeout(function(){
+  $(".intro").show();
+      setTimeout(function() {
+        $(".intro").removeClass('rollIn');
+                  $(".intro").addClass('rollOut ');
+
+          $(".description").show(function(){
+            $(".btn-rounded-white").addClass('rubberBand');
+          });
+
+
+      }, 2500);
+},1000);
+
 
   });
 
