@@ -124,14 +124,14 @@ new WOW().init();
 
 
 $(".description").hide();
-$(".intro").hide();
+// $(".intro").hide();
 $(".btn-rounded-white").hide();
 
   $(window).on("load", function() {
-setTimeout(function(){
 
-  $(".intro").show();
-      setTimeout(function() {
+
+
+      // setTimeout(function() {
         $(".intro").removeClass('fadeInLeft');
 
                   $(".intro").addClass('fadeOutRight slow');
@@ -149,8 +149,8 @@ setTimeout(function(){
 
 
 
-      }, 2500);
-});
+      // }, 1000);
+
 
 
   });
