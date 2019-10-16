@@ -1,3 +1,19 @@
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 8px); }
+    to   { transform: translate(0, -0px); }
+}
+
 .logo {
   background: url('http://reactivespaces.com/static/img/rs_logo_white.png');
   width: 295px;
@@ -6,8 +22,19 @@
   position: absolute;
   top:50%;
   left:39%;
+}.avatar {
+  vertical-align: middle;
+  /* width: 50px; */
+  height: auto;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: 55%;
+  margin-right: auto;
+  width: 35%;
+
 }
-#lead{
+/* #lead{
 
   background-image: url("../images/front.jpg");
 
@@ -23,17 +50,17 @@ position: relative;
   padding: 15px;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 .lead-overlay {
-  background-color:rgba(69.4, 61.2, 85.1, 0.45);
-  position: absolute;
+  /* background-color:rgba(69.4, 61.2, 85.1, 0.45); */
+  border-radius: inherit;
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-
+margin-top: 10%;
   z-index: 1
 }
 
@@ -98,6 +125,17 @@ h2:after {
 }
 @media (max-width: 600px) {
 
+  .lead-overlay{
+    margin-top: -20%;
+
+  }
+  #lead-content{
+    margin-top: 7%;
+  }
+  .avatar{
+    width: 50%;
+    margin: 0 auto;
+  }
   h2:after{
     margin-right: 60%;
   }
@@ -252,7 +290,7 @@ margin: 0px 10px 0px;
   width: 100%;
   text-align: center;
   z-index: 10;
-  bottom: 15px;
+  bottom: 70px;
   color: #fff
 }
 
@@ -269,7 +307,7 @@ margin: 0px 10px 0px;
 #lead-down i {
   animation: pulsate 1.5s ease;
   animation-iteration-count: infinite;
-  padding-top: 5px
+  padding-top: 20px
 }
 
 @keyframes pulsate {
@@ -300,7 +338,7 @@ left: 5%
   position: absolute;
   z-index: 10;
   top: 50%;
-  left:22%;
+  left:30%;
   transform: translate(-50%, -50%);
   text-align: center
 }
@@ -441,19 +479,19 @@ footer {
     font-size: 0.8em;
     padding: 5px 10px
   }
-  #lead-content{
+  /* #lead-content{
     margin-top: -45%;
-  }
+  } */
 }
 @media only screen and (max-width: 992px) and(min-width: 550px) {
-  #lead {
+  /* #lead {
 
 
     height: auto;
     min-height: auto;
     max-height: auto;
     padding: 100px 15px
-  }
+  } */
 
   #lead-content {
     position: relative;
