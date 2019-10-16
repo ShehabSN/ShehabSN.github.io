@@ -125,7 +125,15 @@ h2:after {
 
 }
 @media (max-width: 600px) {
+  #lead{
 
+      min-height: auto;
+      max-height: auto;
+      padding-top: 200px;
+      padding-bottom: 120px;
+
+    background-position: 40% 40%;
+  }
   .lead-overlay{
     margin-top: -20%;
 
@@ -461,15 +469,7 @@ footer {
     padding: 2% 1% 2%;
   }
 
-  #lead{
 
-      min-height: auto;
-      max-height: auto;
-      padding-top: 200px;
-      padding-bottom: 100px;
-
-    background-position: 40% 40%;
-  }
   /* #lead-content h1 {
     font-size: 1.5em
   } */
@@ -502,7 +502,15 @@ footer {
     left: auto;
     top: auto
   }
+  #lead{
 
+      min-height: auto;
+      max-height: auto;
+      padding-top: 200px;
+      padding-bottom: 120px;
+
+    background-position: 40% 40%;
+  }
   #lead-content h1 {
     font-size: 1.75em
   }
@@ -523,6 +531,15 @@ footer {
 @media only screen and (max-width: 768px) {
   .contactmeline{
     font-size: 1rem;
+  }
+  #lead{
+
+      min-height: auto;
+      max-height: auto;
+      padding-top: 200px;
+      padding-bottom: 120px;
+
+    background-position: 40% 40%;
   }
   #skills li , .circular-skill{
       display: inline-block;
