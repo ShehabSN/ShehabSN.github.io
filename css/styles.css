@@ -35,25 +35,7 @@
   width: 25%;
 
 }
-/* #lead{
-
-  background-image: url("../images/front.jpg");
-
-  color: white;
-
-position: relative;
-  background-position: right center;
-  height: 100vh;
-  min-height: 500px;
-  max-height: 1080px;
-
-  background-size: cover;
-  padding: 15px;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 .lead-overlay {
-  /* background-color:rgba(69.4, 61.2, 85.1, 0.45); */
   border-radius: inherit;
   height: 100%;
   width: 100%;
@@ -470,9 +452,6 @@ footer {
   }
 
 
-  /* #lead-content h1 {
-    font-size: 1.5em
-  } */
 
   #lead-content h2 {
     font-size: 1em
@@ -482,19 +461,9 @@ footer {
     font-size: 0.8em;
     padding: 5px 10px
   }
-  /* #lead-content{
-    margin-top: -45%;
-  } */
+
 }
 @media only screen and (max-width: 992px) and(min-width: 550px) {
-  /* #lead {
-
-
-    height: auto;
-    min-height: auto;
-    max-height: auto;
-    padding: 100px 15px
-  } */
 
   #lead-content {
     position: relative;

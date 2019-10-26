@@ -122,16 +122,10 @@ new WOW().init();
   setInterval(update, 1000 / 60);
 }).call(this);
 
-
+//set up initial landing page and text animations
 $(".description").hide();
-// $(".intro").hide();
 $(".btn-rounded-white").hide();
-
   $(window).on("load", function() {
-
-
-
-      // setTimeout(function() {
         $(".intro").removeClass('fadeInLeft');
 
                   $(".intro").addClass('fadeOutRight slow');
@@ -142,27 +136,18 @@ $(".btn-rounded-white").hide();
                         $(".btn-rounded-white").show();
                         $(".btn-rounded-white").addClass('rubberBand');
                       },1000);
-
                     });
-
                   },1000);
-
-
-
-      // }, 1000);
-
-
-
   });
 
-
+//arrow pushes to top of page
   $('#to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
     }, 500);
   });
 
-
+//arrow pushing to next section
   $('#lead-down span').click(function() {
     var scrollDistance = $('#lead').next().offset().top;
     $('html, body').animate({
