@@ -125,26 +125,27 @@ new WOW().init();
 //set up initial landing page and text animations
 $(".description").hide();
 $(".btn-rounded-white").hide();
-  $(window).on("load", function() {
-        $(".intro").removeClass('fadeInLeft');
+  // $(window).on("load", function() {
+  setTimeout(function(){  $(".intro").removeClass('fadeInLeft');
 
-                  $(".intro").addClass('fadeOutRight slow');
+              $(".intro").addClass('fadeOutRight slow');
+              setTimeout(function(){
+                $(".intro").remove();
+                $(".description").show(function(){
                   setTimeout(function(){
-                    $(".intro").remove();
-                    $(".description").show(function(){
-                      setTimeout(function(){
-                        $(".btn-rounded-white").show();
-                        $(".btn-rounded-white").addClass('rubberBand');
-                      },1000);
-                    });
+                    $(".btn-rounded-white").show();
+                    $(".btn-rounded-white").addClass('rubberBand');
                   },1000);
-  });
+                });
+              },500);}, 500);
+
+  // });
 
 //arrow pushes to top of page
   $('#to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
-    }, 500);
+    });
   });
 
 //arrow pushing to next section
