@@ -28,7 +28,7 @@
   <script src="https://kit.fontawesome.com/2c4f90134c.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="animate.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -62,21 +62,6 @@
 
     <div class="container-fluid " id="dropdown-container">
 
-
-
-      <!-- <div class="dropdown">
-        <a style="background-color:transparent; -webkit-appearance: none;" type="submit" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-bars fa-2x nav"></i>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#about-me">About Me</a>
-
-          <a class="dropdown-item" href="#projects">Projects</a>
-          <a class="dropdown-item" href="#skills">Skills</a>
-          <a class="dropdown-item" href="#contact">Contact Me</a>
-        </div>
-      </div> -->
-
     </div>
 
 
@@ -86,9 +71,6 @@
     <div class="container-fluid ">
       <h2 class="wow fadeInUp slow" style="margin-bottom:1rem;" >A Little About Me</h2>
       <div class="row about-me-row wow fadeInUp slow">
-        <!-- <div class="col-lg-4" style="margin-top: 30px;"> -->
-          <!-- <img src="images/aboutpic.jpg" class="about-me-img" alt="Avatar"> -->
-        <!-- </div> -->
         <div class="col">
           <p style="margin-top: 30px;">I am fascinated by the world of technology and its infinite applications and thus I am constantly curious. I pick up new frameworks and languages quite quickly and I embrace challenges as that is how I grow and
             excel. I am naturally an analytical thinker and as a computer science student at The University of Calgary, I am able to consistently problem solve while refining my skillset. I love meeting new people and collaborating on projects and
@@ -110,18 +92,38 @@
 
 
         <h2 class="wow fadeInUp slow">A Few of My Projects</h2>
+        <div class="card shadow-large grow-shadow wow fadeInUp">
+          <img class="card-img-top" src="images/omnia2.JPG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title project-header">Omnia</h5>
+            <p class="card-text">An ed-tech solution dashboard providing data analytics for university systems to enable them to make data driven decisions in efforts to enhance students' experiences. The dashboard would provide them with a plethora of insights and inferences on student behavior and experiences. Pitched at <a href="https://www.ycombinator.com" class="card-link">Y Combinator</a>.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item "> <div style="margin-bottom: 2%;"><span class="project-header">Languages and Frameworks used:</span></div>
+              <ul>
+                <li class="circular-skill">Javascript</li>
+                <li class="circular-skill">Bootstrap</li>
+                <li class="circular-skill">CSS</li>
+                <li class="circular-skill">HTML</li>
+
+              </ul>
+
+
+          </ul>
+
+        </div>
         <div class="card shadow-large grow-shadow wow fadeInUp  ">
           <img class="card-img-top " src="images/dime2.JPG" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Dime</h5>
+            <h5 class="card-title project-header">Dime 2.0</h5>
             <p class="card-text">A mobile platform with 2000+ users created for University
 students, helping them interact with like-minded
 individuals via geo-location services and through gamified
 communication features while keeping students in the loop
-through various informational and engaging feeds. Pitched at <a href="https://www.ycombinator.com" class="card-link">Y Combinator</a>.</p>
+through various informational and engaging feeds.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item ">Languages and Frameworks used:
+            <li class="list-group-item "> <div style="margin-bottom: 2%;"><span class="project-header">Languages and Frameworks used:</span></div>
               <ul>
                 <li class="circular-skill">Flutter</li>
                 <li class="circular-skill">Cloud Firestore</li>
@@ -136,64 +138,34 @@ through various informational and engaging feeds. Pitched at <a href="https://ww
           </div>
         </div>
         <div class="card shadow-large grow-shadow wow fadeInUp">
-          <img class="card-img-top" src="images/omnia2.JPG" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Omnia</h5>
-            <p class="card-text">An ed-tech solution dashboard providing data analytics for university systems to enable them to make data driven decisions in efforts to enhance students' experiences. The dashboard would provide them with a plethora of insights and inferences on student behavior and experiences. </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item ">Languages and Frameworks used:
-              <ul>
-                <li class="circular-skill">Javascript</li>
-                <li class="circular-skill">Bootstrap</li>
-                <li class="circular-skill">CSS</li>
-                <li class="circular-skill">HTML</li>
-
-              </ul>
-
-
-          </ul>
-          <!-- <div class="card-body">
-            <a href="https://omnia-labs.com" class="card-link">Check out the demo</a>
-            <!-<a href="https://github.com/ShehabSN/Simon-Says-Memory-Game" class="card-link">Check it out on GitHub</a> -->
-
-          <!-- </div>  -->
-        </div>
-        <div class="card shadow-large grow-shadow wow fadeInUp">
           <img class="card-img-top" src="images/funder2.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Funder</h5>
-            <p class="card-text">A cross platform mobile app created to make financial payments easier among groups and individuals. Funder enables users to keep track of multiple payments for different groups and events and conveniently pay them. </p>
+            <h5 class="card-title project-header">Dime 1.0</h5>
+            <p class="card-text">A cross platform mobile app created to make financial payments easier among groups and individuals. Dime 1.0 effortlessly integrates the social aspect of managing finances, enabling users to keep track of multiple payments for different groups and events and conveniently pay them.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item ">Languages and Frameworks used:
+            <li class="list-group-item "> <div style="margin-bottom: 2%;"><span class="project-header">Languages and Frameworks used:</span></div>
               <ul>
                 <li class="circular-skill">Flutter</li>
                 <li class="circular-skill">Cloud Firestore</li>
-                <!-- <li class="circular-skill">CSS</li>
-                <li class="circular-skill">HTML</li> -->
 
               </ul>
 
 
           </ul>
-          <!-- <div class="card-body">
-            <a href="https://omnia-labs.com" class="card-link">Check the demo</a>
-            <!<a href="https://github.com/ShehabSN/Simon-Says-Memory-Game" class="card-link">Check it out on GitHub</a> -->
-
-
+    
         </div>
 
         <div class="card shadow-large grow-shadow wow fadeInUp ">
            <img class="card-img-top" src="images/unoeditedgif.gif" alt="Card image cap">
 
           <div class="card-body">
-            <h5 class="card-title">Uno</h5>
+            <h5 class="card-title project-header">Uno</h5>
             <p class="card-text">A Graphical User Interface desktop application Uno game played against an AI. All the regular functionality of the card game have been incorporated and the AI is programmed to make intelligent moves based on your
               current cards, but watch me beat it anyway 😁 </p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item ">Languages and Frameworks used:
+            <li class="list-group-item "> <div style="margin-bottom: 2%;"><span class="project-header">Languages and Frameworks used:</span></div>
               <ul>
                 <li class="circular-skill">Java</li>
                 <li class="circular-skill">JavaFX</li>
@@ -202,20 +174,26 @@ through various informational and engaging feeds. Pitched at <a href="https://ww
 
           </ul>
           <div class="card-body">
+            <div class="row">
+            <div class="col-sm-6">
             <a href="UNO.jar" class="card-link">Download the Game! (needs Java 8)</a><br>
+            </div>
+            <div class="col-sm-6">
             <a href="https://github.com/ShehabSN/UNO" class="card-link">Check it out on GitHub</a>
-
+          </div>
+        </div>
           </div>
         </div>
         <div class="card shadow-large grow-shadow wow fadeInUp">
           <img class="card-img-top" src="images/simonsaysgif.gif" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Simon Says</h5>
+            <h5 class="card-title project-header">Simon Says</h5>
             <p class="card-text">A Simon Says game thats puts your sequential memory to the test, created on the web. A series of colored tiles are played with sound and the player has to replicate the sequence accordingly with another tile played in each iteration. Currently the game is
               unbeatable as the levels go on endlessly 😆</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item ">Languages and Frameworks used:
+            <li class="list-group-item ">
+              <p class="languages-title"> <div style="margin-bottom: 2%;"><span class="project-header">Languages and Frameworks used:</span></div>
               <ul>
                 <li class="circular-skill">Javascript</li>
                 <li class="circular-skill">JQuery</li>
@@ -227,9 +205,10 @@ through various informational and engaging feeds. Pitched at <a href="https://ww
 
           </ul>
           <div class="card-body">
-            <a href="https://simon-says-a3cfc.firebaseapp.com" class="card-link">Play the Game! (computer only)</a><br>
-            <a href="https://github.com/ShehabSN/Simon-Says-Memory-Game" class="card-link">Check it out on GitHub</a>
-
+            <div class="row">
+            <div class="col-sm-6"><a href="https://simon-says-a3cfc.firebaseapp.com" class="card-link">Play the Game! (computer only)</a><br></div>
+            <div class="col-sm-6"><a href="https://github.com/ShehabSN/Simon-Says-Memory-Game" class="card-link">Check it out on GitHub</a></div>
+            </div>
           </div>
         </div>
       </div>
@@ -246,28 +225,26 @@ through various informational and engaging feeds. Pitched at <a href="https://ww
         <li class=" wow fadeInLeft slow">Java</li>
         <li class=" wow fadeInLeft slow">Python</li>
         <li class=" wow fadeInLeft slow">JavaScript</li>
-        <li class="wow fadeInRight slow">HTML</li>
-        <li class="wow fadeInRight slow">XML</li>
-        <li class="wow fadeInRight slow" >JQuery</li>
-        <li class="wow fadeInRight slow">CSS</li>
-        <li class="wow fadeInLeft slow">Bootstrap</li>
-        <li class="wow fadeInLeft slow">EJS</li>
         <li class="wow fadeInRight slow">Node.js</li>
         <li class="wow fadeInRight slow">Express.js</li>
+        <li class="wow fadeInRight slow" >React.js</li>
+        <li class="wow fadeInRight slow" >JQuery</li>
+        <li class="wow fadeInRight slow">HTML</li>
+        <li class="wow fadeInRight slow">XML</li>
+        <li class="wow fadeInRight slow">CSS</li>
+        <li class="wow fadeInLeft slow">Bootstrap</li>
         <li class=" wow fadeInLeft slow">Spring</li>
-        <li class="wow fadeInLeft slow">Hibernate</li>
-        <li class="wow fadeInRight slow">MyBatis</li>
         <li class="wow fadeInRight slow">Maven</li>
-        <li class="wow fadeInRight slow">Tomcat</li>
-        <li class="wow fadeInRight slow">JBoss</li>
         <li class="wow fadeInLeft slow">SQL</li>
         <li class="wow fadeInLeft slow">MongoDB</li>
         <li class="wow fadeInLeft slow">Oracle</li>
+        <li class="wow fadeInLeft slow">PostgreSQL</li>
         <li class="wow fadeInRight slow">MySQL</li>
         <li class="wow fadeInRight slow">Cloud Firestore</li>
+        <li class="wow fadeInLeft slow">AWS Cloud Formation</li>
         <li class="wow fadeInRight slow">Flutter</li>
         <li class="wow fadeInRight slow">Git</li>
-        <
+        
 
 
 
@@ -294,7 +271,7 @@ through various informational and engaging feeds. Pitched at <a href="https://ww
         <div class="col-sm-5 copyright">
           <p>
 
-            Last Updated 9/2/2019
+            Last Updated 5/15/2020
 
 
 

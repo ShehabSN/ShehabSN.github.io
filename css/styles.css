@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
-
+@import 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap';
 html, body
 {
     margin: 0px;
@@ -7,7 +7,7 @@ html, body
 
 header, footer
 {
-    font-family: Raleway;
+  font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
 	padding: 5em 3em;
 	text-align: center;
@@ -35,7 +35,7 @@ footer span
 div.container
 {
   color: white;
-    font-family: Raleway;
+  font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
 	padding: 2em 3em;
 	text-align: center;
@@ -45,7 +45,8 @@ div.container a
 {
     color: #FFF;
     text-decoration: none;
-    font: 20px Raleway;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -509,7 +510,7 @@ html{
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   line-height: 2;
   font-size: 1rem;
@@ -578,7 +579,8 @@ h2:after {
     font-size: 1rem;
   }
   div .container a{
-    font: 16px Raleway;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
     margin: 0px;
     padding: 5px 5px;
 
@@ -678,11 +680,12 @@ hr {
   clear: left;
 }
 #skills li , .circular-skill{
+  font-family: 'Work Sans',sans-serif;
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
+    background: #374054;
+    color: #e4e4ea;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
@@ -727,8 +730,9 @@ hr {
             border-radius: 8px;
 }
 .card-link{
-  color: black;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  color:#212529;
 }
 
 .greeting{
@@ -837,6 +841,7 @@ margin-bottom: 7%;
 }
 
 .btn-rounded-white {
+  font-family: 'Work Sans', sans-serif;
   font-size: 1.15rem;
   display: inline-block;
   color: #fff;
@@ -891,7 +896,8 @@ footer {
 @media only screen and (max-width: 550px) {
 
   div .container a{
-    font: 16px Raleway;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
     margin: 0px;
     padding: 5px 5px;
   }
@@ -957,7 +963,8 @@ footer {
 }
 @media only screen and (max-width: 992px) and(min-width: 550px) {
   div .container a{
-    font: 16px Raleway;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
     margin: 0px;
     padding: 5px 6px;
   }
@@ -1010,11 +1017,12 @@ footer {
     background-position: 40% 40%;
   }
   #skills li , .circular-skill{
+      font-family: 'Work Sans',sans-serif;
       display: inline-block;
       margin: 5px;
       padding: 5px 10px;
-      color: #374054;
-      background: #e4e4ea;
+      background: #374054;
+      color: #e4e4ea;
       list-style: none;
       cursor: default;
       font-size: 1rem;
@@ -1101,4 +1109,11 @@ canvas{
    left:0;
    top:0;
    z-index:-1;
+}
+.project-header{
+  font-family: 'Montserrat';
+  font-weight: '500';
+}
+ul {
+  padding-inline-start:0;
 }
