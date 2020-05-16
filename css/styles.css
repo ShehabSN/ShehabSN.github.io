@@ -574,10 +574,15 @@ h2:after {
     border-top: 3px solid;
 
 }
+.project-header{
+  font-family: 'Montserrat';
+  font-weight: 400; color: #212529;
+}
+
 @media (max-width: 600px) {
   .project-header{
     color: #212529;
-    font-weight: 400;
+    font-weight: 600;
   }
   .btn-rounded-white{
     font-size: 1rem;
@@ -902,7 +907,7 @@ footer {
 @media only screen and (max-width: 550px) {
   .project-header{
     color: #212529;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   div .container a{
@@ -1013,7 +1018,7 @@ footer {
 @media only screen and (max-width: 768px) {
   .project-header{
     color: #212529;
-    font-weight: 400;
+    font-weight: 600;
   }
   .btn-rounded-white{
     font-size: 1rem;
@@ -1123,10 +1128,6 @@ canvas{
    left:0;
    top:0;
    z-index:-1;
-}
-.project-header{
-  font-family: 'Montserrat';
-  font-weight: 400; color: #212529;
 }
 ul {
   padding-inline-start:0;
