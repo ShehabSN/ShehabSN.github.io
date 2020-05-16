@@ -580,7 +580,7 @@ h2:after {
   }
   div .container a{
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     padding: 5px 5px;
 
@@ -730,7 +730,6 @@ hr {
             border-radius: 8px;
 }
 .card-link{
-  font-weight: 400;
   font-family: 'Montserrat';
   color:#212529;
 }
@@ -897,7 +896,7 @@ footer {
 
   div .container a{
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     padding: 5px 5px;
   }
@@ -964,7 +963,7 @@ footer {
 @media only screen and (max-width: 992px) and(min-width: 550px) {
   div .container a{
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     padding: 5px 6px;
   }
@@ -1112,7 +1111,6 @@ canvas{
 }
 .project-header{
   font-family: 'Montserrat';
-  font-weight: '500';
 }
 ul {
   padding-inline-start:0;
