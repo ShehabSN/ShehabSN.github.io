@@ -893,7 +893,9 @@ footer {
 
 
 @media only screen and (max-width: 550px) {
-
+  .contactmeline{
+    text-align:center;font-size:15px;
+  }
   div .container a{
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
@@ -1111,6 +1113,7 @@ canvas{
 }
 .project-header{
   font-family: 'Montserrat';
+  font-weight: 400  !important;
 }
 ul {
   padding-inline-start:0;
