@@ -576,7 +576,8 @@ h2:after {
 }
 @media (max-width: 600px) {
   .project-header{
-    font-weight: 500;
+    color: #212529;
+    font-weight: 400;
   }
   .btn-rounded-white{
     font-size: 1rem;
@@ -900,7 +901,8 @@ footer {
 
 @media only screen and (max-width: 550px) {
   .project-header{
-    font-weight: 500;
+    color: #212529;
+    font-weight: 400;
   }
 
   div .container a{
@@ -1010,7 +1012,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .project-header{
-    font-weight: 500;
+    color: #212529;
+    font-weight: 400;
   }
   .btn-rounded-white{
     font-size: 1rem;
