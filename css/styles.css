@@ -585,14 +585,14 @@ h2:after {
     font-weight: 600;
   }
   .btn-rounded-white{
-    font-size: 1rem;
+    font-size: 15px;
   }
   #about-me p{
     font-size: 1rem;
   }
   div .container a{
     font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0px;
     padding: 5px 5px;
 
@@ -912,12 +912,12 @@ footer {
 
   div .container a{
     font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0px;
     padding: 5px 5px;
   }
   .btn-rounded-white{
-    font-size: 1rem;
+    font-size: 15px;
   }
   .about-me-row{
     padding: 0% 0% 0%;
@@ -1021,7 +1021,7 @@ footer {
     font-weight: 600;
   }
   .btn-rounded-white{
-    font-size: 1rem;
+    font-size: 15px;
   }
   .contactmeline{
     font-size: 1rem;
