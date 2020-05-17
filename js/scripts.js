@@ -126,7 +126,6 @@ new WOW().init();
 $(".description").hide();
 $(".btn-rounded-white").hide();
   $(window).on("load", function() {
-  setTimeout(function(){  $(".intro").removeClass('fadeInLeft');
 
               $(".intro").addClass('fadeOutRight slow');
               setTimeout(function(){
@@ -137,7 +136,7 @@ $(".btn-rounded-white").hide();
                     $(".btn-rounded-white").addClass('rubberBand');
                   },1000);
                 });
-              },500);}, 1000);
+              },500);
 
  });
 
