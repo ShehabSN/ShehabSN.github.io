@@ -125,7 +125,7 @@ new WOW().init();
 //set up initial landing page and text animations
 $(".description").hide();
 $(".btn-rounded-white").hide();
-  // $(window).on("load", function() {
+  $(window).on("load", function() {
   setTimeout(function(){  $(".intro").removeClass('fadeInLeft');
 
               $(".intro").addClass('fadeOutRight slow');
@@ -137,9 +137,9 @@ $(".btn-rounded-white").hide();
                     $(".btn-rounded-white").addClass('rubberBand');
                   },1000);
                 });
-              },500);}, 500);
+              },500);}, 1000);
 
-  // });
+ });
 
 //arrow pushes to top of page
   $('#to-top').click(function() {
